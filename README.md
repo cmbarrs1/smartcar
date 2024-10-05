@@ -13,6 +13,7 @@ To get this working:
 <LI>Install the pickle library for python by executing: pip install pickle</LI>
 <LI>Go to smartcar.com and sign up for an account</LI>
 <LI>On smartcar.com create a new application, and note the client id and client secret.</LI>
+<LI>Below the client secret is "Redirect URIs", add "http://localhost/smartcar/redirect/".
 <LI>*.py files put your client id and secret into the appropriate areas (I know about includes but I rushed this)</LI>
 <LI>Execute auth_step0.py in order to get an authentiction URL. This would normally be the URL you would send your user to.</LI>
 <LI>Copy and paste that URL into your browser, but be sure to change the "test" mode to "live" mode in the URL it returns eg:
